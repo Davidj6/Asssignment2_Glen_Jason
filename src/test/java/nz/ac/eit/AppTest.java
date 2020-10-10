@@ -1,8 +1,13 @@
 package nz.ac.eit;
 
+import static java.lang.System.exit;
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.Scanner;
 
 /**
  * Unit test for simple App.
@@ -16,5 +21,12 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+
+
+    @Test
+    public void nullInputTest() throws UserInputNullException {
+        assertEquals (null,
+                UserInput.playerStart);
     }
 }
