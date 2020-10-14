@@ -23,10 +23,4 @@ public class AppTest
         assertTrue( true );
     }
 
-
-    @Test
-    public void nullInputTest() throws UserInputNullException {
-        assertEquals (null,
-                UserInput.playerStart);
-    }
 }
