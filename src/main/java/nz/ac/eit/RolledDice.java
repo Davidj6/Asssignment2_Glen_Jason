@@ -15,17 +15,11 @@ public class RolledDice {
         return total;
     }
 
-    public int  rolledNumber(String numberAsString) throws NumberNotAnIntegerException, NumberNotInAValidRangeException {
-        int numberedDice = RolledDice.rollDice();
-        try {
-            numberedDice = Integer.parseInt(numberAsString);
+    public int checkSum(int sumOfDice) throws NumberNotAnIntegerException, NumberNotInAValidRangeException {
+
+        if (sumOfDice < 1 || sumOfDice > 12) {
+            throw new NumberNotInAValidRangeException(sumOfDice);
         }
-        catch (NumberFormatException nfe) {
-            throw new NumberNotAnIntegerException(numberAsString);
-        }
-        if (numberedDice < 1 || numberedDice > 12) {
-            throw new NumberNotInAValidRangeException(numberedDice);
-        }
-        return numberedDice;
+        return sumOfDice;
     }
 }
