@@ -2,7 +2,7 @@ package nz.ac.eit;
 
 public class RolledDice {
     //Roll dice function
-    private static int rollDice()
+    public int rollDice()
     {
         int dice = 0;
         int total = 0;
@@ -15,11 +15,31 @@ public class RolledDice {
         return total;
     }
 
-    public int checkSum(int sumOfDice) throws NumberNotAnIntegerException, NumberNotInAValidRangeException {
+    public int checkSum(Integer sumOfDice) throws NumberNotAnIntegerException, NumberNotInAValidRangeException {
 
         if (sumOfDice < 1 || sumOfDice > 12) {
             throw new NumberNotInAValidRangeException(sumOfDice);
         }
         return sumOfDice;
+    }
+
+    public boolean secondRoll() {
+        int playerTotal = 0;
+        playerTotal += rollDice();
+        System.out.println("Player total score is: " + playerTotal);
+        int playerTotal2 = playerTotal;
+        playerTotal2 += rollDice();
+        System.out.println("Player total score is: " + playerTotal2);
+        return(playerTotal2 > playerTotal);
+    }
+
+    public boolean playerRollYes() {
+        String playerChoice ="YES";
+        int playerTotal = 0;
+        if (playerChoice.equals("YES")) {
+            playerTotal += rollDice();
+            System.out.println("Player total score is: " + playerTotal);
+        }
+        return(playerTotal > 0);
     }
 }

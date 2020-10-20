@@ -1,6 +1,8 @@
 package nz.ac.eit;
 
 import org.junit.Test;
+import org.junit.experimental.theories.suppliers.TestedOn;
+
 import static org.junit.Assert.*;
 
 public class RolledDiceTest {
@@ -23,5 +25,17 @@ public class RolledDiceTest {
         rolledDice.checkSum(-1);
     }
 
+    @Test
+    public void addNewDiceRollToPreviousTotal() {
+        RolledDice rolledDice = new RolledDice();
+        boolean correct=rolledDice.secondRoll();
+        assertTrue(correct);
+    }
 
+    @Test
+    public void newDiceRollAfterPlayerAnswersYes() {
+        RolledDice rolledDice = new RolledDice();
+        boolean answerYes=rolledDice.playerRollYes();
+        assertTrue(answerYes);
+    }
 }
