@@ -77,9 +77,8 @@ public class App
                     System.out.println(computerTotal + "COMPUTER WINS!!!");
                 }
             }
-            System.out.println("Do you want to start a new game(y/n)?");
-            Scanner scanner = new Scanner(System.in);
-            playerStart = scanner.nextLine();
+
+            playerStart = start.nextLine();
             if (playerStart.equals("n")) {
                 exit(0);
             }

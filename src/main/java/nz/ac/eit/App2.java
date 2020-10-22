@@ -1,12 +1,9 @@
 package nz.ac.eit;
 
-import java.util.Scanner;
-import static java.lang.System.exit;
-
 public class App2
 {
     public static void main( String[] args ) throws NumberNotInAValidRangeException, NumberNotAnIntegerException {
-        Req2 startGame = new Req2();
+        UserStart startGame = new UserStart();
         UserInput userInput = new UserInput();
         RolledDice rolledDice = new RolledDice();
         //Welcome Message.

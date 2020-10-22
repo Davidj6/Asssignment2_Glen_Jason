@@ -3,7 +3,7 @@ package nz.ac.eit;
 import java.util.Scanner;
 import static java.lang.System.exit;
 
-public class Req2 {
+public class UserStart {
     public void playerStart() {
         UserInput userInput = new UserInput();
 
