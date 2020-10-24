@@ -51,10 +51,10 @@ public class App
 
                 //Player automatic win or lose conditions.
                 if (playerTotal == 21) {
-                    System.out.println(playerTotal + " PLAYER WINS!!! Congratulations.");
+                    System.out.println("Player Total:" + playerTotal + " PLAYER WINS!!! Congratulations.");
                     playerChoice = "n";
                 } else if (playerTotal >= 21) {
-                    System.out.println(playerTotal + " PLAYER LOSES!!! Sorry try again.");
+                    System.out.println("Player Total:" + playerTotal + " PLAYER LOSES!!! Sorry try again.");
                     playerChoice = "n";
                 }
 
@@ -67,14 +67,14 @@ public class App
                 int computerTotal = 0;
                 do {
                     computerTotal += rollDice();
+                    System.out.println("Computers total score is: " + computerTotal);
                 } while (computerTotal <= playerTotal);
 
                 //Computer automatic win or lose conditions.
-                System.out.println("Computers total score is: " + computerTotal);
                 if (computerTotal > 21) {
-                    System.out.println(computerTotal + "COMPUTER LOSES!!!");
+                    System.out.println("Computer Total:" + computerTotal + " Player Total:" + playerTotal + " PLAYER WINS!!!");
                 } else if (computerTotal == 21 || computerTotal > playerTotal) {
-                    System.out.println(computerTotal + "COMPUTER WINS!!!");
+                    System.out.println("Computer Total:" + computerTotal + " Player Total:" + playerTotal + " COMPUTER WINS!!!");
                 }
             }
 
