@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
  */
 public class UserInputTest {
     /**
+     * Test ID 1
      * User Input other than YES or NO
      * @throws InputNotSupportedException
      */
@@ -18,6 +19,7 @@ public class UserInputTest {
     }
 
     /**
+     * Test ID 2
      * User Input YES
      */
     @Test
@@ -28,6 +30,7 @@ public class UserInputTest {
     }
 
     /**
+     * Test ID 3
      * User Input NO
      */
     @Test
