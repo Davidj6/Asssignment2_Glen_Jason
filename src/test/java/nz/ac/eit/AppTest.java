@@ -1,11 +1,11 @@
-package nz.ac.eit;
+//package nz.ac.eit;
 
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
 
-public class MainTest {
+//public class MainTest {
 
-    @Test
-    void mainStuff () {
-        // Main.main(new String[]{});
-    }
-}
+//    @Test
+//    void mainStuff () {
+//        // Main.main(new String[]{});
+//    }
+//}
