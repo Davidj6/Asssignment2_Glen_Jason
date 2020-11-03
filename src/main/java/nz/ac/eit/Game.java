@@ -15,7 +15,9 @@ public class Game {
     public void Start()
     {
         PlayerTurn();
-        ComputerTurn();
+        if (playerTotal < 21) {
+            ComputerTurn();
+        }
     }
 
     public void PlayerTurn()
@@ -33,7 +35,7 @@ public class Game {
                 System.out.println("Player total score is: " + playerTotal);
             }
             CheckScore();
-            if (playerTotal == 21) playerChoice = false;
+            if (playerTotal >= 21) playerChoice = false;
         } while (playerChoice);
     }
 
