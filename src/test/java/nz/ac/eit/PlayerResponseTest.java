@@ -36,6 +36,9 @@ public class PlayerResponseTest {
         System.setOut(systemOut);
     }
 
+    /*
+    Test ID 9
+     */
     @Test
     @DisplayName("Test Player Response")
     public void playerResponseTest()
@@ -58,6 +61,9 @@ public class PlayerResponseTest {
         assertFalse(PlayerResponse.YesOrNo());
     }
 
+    /*
+    Test ID 10
+     */
     @Test
     @DisplayName("IllegalArgumentException Test")
     public void TestIllegalArgumentException(){
@@ -66,6 +72,9 @@ public class PlayerResponseTest {
         });
     }
 
+    /*
+    Test ID 11
+     */
     @Test
     @DisplayName("NoSuchElementException Test")
     public void TestNoSuchElementException()

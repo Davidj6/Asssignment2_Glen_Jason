@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 
 class GameTest {
 
+    /*
+    Test ID 2
+     */
     @Test
     @DisplayName("Test Computer Bust")
     public void checkScoreComputerBust()
@@ -19,6 +22,9 @@ class GameTest {
         System.out.println( "T: ComputerTotal: " + game.computerTotal );
     }
 
+    /*
+    Test ID 3
+     */
     @Test
     @DisplayName("Test Computer Blackjack")
     public void checkScoreComputerBlackjack()
@@ -32,6 +38,9 @@ class GameTest {
         System.out.println( "T: ComputerTotal: " + game.computerTotal );
     }
 
+    /*
+    Test ID 4
+     */
     @Test
     @DisplayName("Test Player Blackjack")
     public void checkScorePlayerBlackjack()
@@ -45,6 +54,9 @@ class GameTest {
         System.out.println( "T: ComputerTotal: " + game.computerTotal );
     }
 
+    /*
+    Test ID 5
+     */
     @Test
     @DisplayName("Test Player Bust")
     public void checkScorePlayerBust()
@@ -58,6 +70,9 @@ class GameTest {
         System.out.println( "T: ComputerTotal: " + game.computerTotal );
     }
 
+    /*
+    Test ID 6
+     */
     @Test
     @DisplayName("Test Player Win")
     public void checkScorePlayerWin()
@@ -71,6 +86,9 @@ class GameTest {
         System.out.println( "T: ComputerTotal: " + game.computerTotal );
     }
 
+    /*
+    Test ID 7
+     */
     @Test
     @DisplayName("Test Computer Win")
     public void checkScoreComputerWin()
@@ -84,6 +102,9 @@ class GameTest {
         System.out.println( "T: ComputerTotal: " + game.computerTotal );
     }
 
+    /*
+    Test ID 8
+     */
     @Test
     @DisplayName("Test Computer Turn")
     public void computerTurnTest()
@@ -94,6 +115,9 @@ class GameTest {
         game.ComputerTurn();
     }
 
+    /*
+    Test ID 9
+     */
     @Test
     @DisplayName("Test Player Turn")
     public void playerTurnTest()  {
