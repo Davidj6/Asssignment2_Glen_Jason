@@ -8,7 +8,6 @@
 # REQ 8: Show player first summed total of dice roll
 # REQ 9: Add new dice rolls to previous player total
 # REQ 10: Player choice to hold
-# REQ 11: Ensure player gets only one extra set of dice rolls
 # REQ 12: Computer first option dice roll
 # REQ 13: Computer random generates two dice and sums up
 # REQ 14: Display computer first total
