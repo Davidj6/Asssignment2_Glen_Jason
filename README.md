@@ -8,12 +8,12 @@
 # REQ 8: Show player first summed total of dice roll
 # REQ 9: Add new dice rolls to previous player total
 # REQ 10: Player choice to hold
-# REQ 11: If players total score is 21 then they win and the current game ends
+# REQ 11: If players total score is 21 then they win
 # REQ 12: Computer first option dice roll
 # REQ 13: Computer random generates two dice and sums up
 # REQ 14: Display computer first total
 # REQ 15: Computer 'decision ' for further dice rolls
-# REQ 16: If the player total score is over 21 then they lose and the current game ends
+# REQ 16: If the player total score is over 21 then they lose
 # REQ 17: Computer re roll yes or no
 # REQ 18: Sum computer results
 # REQ 19: Display both scores and show winner
