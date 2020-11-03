@@ -13,7 +13,7 @@
 # REQ 13: Computer random generates two dice and sums up
 # REQ 14: Display computer first total
 # REQ 15: Computer 'decision ' for further dice rolls
-# REQ 16: If the player total score is over 21 then they lose and 
+# REQ 16: If the player total score is over 21 then they lose
 # REQ 17: Computer re roll yes or no
 # REQ 18: Sum computer results
 # REQ 19: If the computer total score is less than 21 and greater than the players total score then the computer wins
