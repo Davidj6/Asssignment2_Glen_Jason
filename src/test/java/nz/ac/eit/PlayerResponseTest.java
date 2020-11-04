@@ -37,7 +37,7 @@ public class PlayerResponseTest {
     }
 
     /*
-    Test ID 9
+    Test ID 10
      */
     @Test
     @DisplayName("Test Player Response")
@@ -62,7 +62,7 @@ public class PlayerResponseTest {
     }
 
     /*
-    Test ID 10
+    Test ID 11
      */
     @Test
     @DisplayName("IllegalArgumentException Test")
@@ -73,7 +73,7 @@ public class PlayerResponseTest {
     }
 
     /*
-    Test ID 11
+    Test ID 12
      */
     @Test
     @DisplayName("NoSuchElementException Test")
